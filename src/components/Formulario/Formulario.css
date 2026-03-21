@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.grupo-radio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.campo-radio {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

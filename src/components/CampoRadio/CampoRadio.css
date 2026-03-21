@@ -1,0 +1,14 @@
+input[type="radio"] {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    color: #333;
+}
+
+.campo-radio {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
