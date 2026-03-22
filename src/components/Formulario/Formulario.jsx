@@ -24,6 +24,11 @@ const Formulario = (props) => {
                 "estado": estado
             }
         )
+        setSecao('')
+        setMarca('')
+        setNome('')
+        setPreco('')
+        setEstado('')
     }
 
     return (
