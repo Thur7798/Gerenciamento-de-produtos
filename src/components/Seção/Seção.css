@@ -1,0 +1,22 @@
+.section-produtos {
+    display: block;
+    margin: 30px;
+}
+
+.titulo-secao {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #444; /* tom mais suave que #222 */
+    text-align: center; /* centraliza o título */
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* centraliza os cards */
+    margin-top: 10px;
+}
+
+

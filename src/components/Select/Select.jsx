@@ -11,6 +11,7 @@ const secao= (props) =>{
         <div >
             <label>{props.label}</label>
             <select value={props.valor} onChange={aoEscolhido}>
+                <option value=""></option>
                 {props.item.map(item=><option key={item}>{item}</option>)}
             </select>
         </div>

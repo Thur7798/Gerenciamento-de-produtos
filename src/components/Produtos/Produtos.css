@@ -1,0 +1,46 @@
+.card-produto {
+    width: 180px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.card-produto:hover {
+    transform: scale(1.05);
+}
+
+.imagem {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 60%;
+    height: auto;
+}
+
+.info h4 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+.info span {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}

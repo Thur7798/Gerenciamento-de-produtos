@@ -33,7 +33,7 @@ const Formulario = (props) => {
                 <Select label="Seção" valor={secao} item={props.secoes} aoAlterado={valor => setSecao(valor)} />
                 <Select label="Marca" valor={marca} item={props.marcas} aoAlterado={valor => setMarca(valor)} />
                 <CampoTexto label="Nome" valor={nome} placeholder="Digite o nome do produto: " aoAlterado={valor => setNome(valor)} />
-                <CampoTexto label="Preço" valor={preco} placeholder="Digite o preço do produto: " aoAlterado={valor => setPreco(valor)} />
+                <CampoTexto type="number" label="Preço" valor={preco} placeholder="Digite o preço do produto: " aoAlterado={valor => setPreco(valor)} />
                 <div className="grupo-radio">
                     <CampoRadio
                         name="estado"
