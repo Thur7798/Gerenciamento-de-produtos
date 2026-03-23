@@ -28,7 +28,6 @@ const Formulario = (props) => {
         setMarca('')
         setNome('')
         setPreco('')
-        setEstado('')
     }
 
     return (
